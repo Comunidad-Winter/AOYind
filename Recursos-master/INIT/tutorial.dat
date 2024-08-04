@@ -1,0 +1,75 @@
+[Config]
+Cantidad=12
+
+[Tutorial1]
+Evento=Ingreso nuevo usuario
+Linea1=¡Bienvenido al mundo de AoYind!
+Linea2=Yo seré tu tutor durante tus primeros niveles.
+Linea3=Si ya sabes jugar escribe /tutor para desactivarme.
+
+[Tutorial2]
+Evento=Clase magica
+Linea1=Para lanzar tus hechizos debés tener skills en magia
+Linea2=Ve al menú Estadísticas y asigna 5 skills en magia para usar
+Linea3=dardo mágico, luego los skills empezarán a subir solos.
+
+[Tutorial3]
+Evento=Primer entrenamiento
+Linea1=¡Muy bien! ahora deberás matar criaturas para subir
+Linea2=de nivel y obtener más poderes. En la barra inferior verás tu
+Linea3=posición, camina hasta {msg} e ingresa al teleport.
+Funcion=1
+
+[Tutorial4]
+Evento=Dungeon Newbie
+Linea1=Estás en el Dungeon Newbie, aquí podrás encontrar criaturas
+Linea2=acordes a tu nivel, si mantienes apretada la tecla 'Q' podrás
+Linea3=ver un mapa del sitio. Busca alguna criatura y atácala.
+
+[Tutorial5]
+Evento=Atacado
+Linea1=¡Una criatura te está atacando! puedes lanzarle un hechizo
+Linea2=desde el menú hechizos o pegarle cuerpo a cuerpo con la
+Linea3=tecla 'CONTROL' Ten cuidado que no te baje mucho la vida.
+
+[Tutorial6]
+Evento=Mana bajo
+Linea1=Has utilizado todo tu maná. Para recuperarlo ve a un lugar
+Linea2=seguro y oprime F6 o /meditar, tu maná comenzará a subir y
+Linea3=podrás seguir utilizando tus magias.
+
+[Tutorial7]
+Evento=Hambre sed baja
+Linea1=La barra azul en tus propiedades representa la sed de tu
+Linea2=personaje y la verde el hambre, si dejás que lleguen a 0
+Linea3=no podrás recuperar energía y atacar a tus enemigos.
+
+[Tutorial8]
+Evento=Muere
+Linea1=¡Has muerto! deberás ir hacia un sacerdote para que te resuci-
+Linea2=te o escribir /hogar para volver a tu ciudad de origen luego
+Linea3=deberás volver rápido donde has muerto para recoger tus cosas.
+
+[Tutorial9]
+Evento=Vida baja
+Linea1=¡Ten cuidado! tu vida está muy baja, deberías tomar alguna
+Linea2=poción roja para recuperar puntos de vida. Si ya no tienes
+Linea3=pociones puedes acercarte a un sacerdote y él te curará.
+
+[Tutorial10]
+Evento=Sube nivel
+Linea1=¡Felicitaciones! has subido de nivel. Tus poderes han incremen-
+Linea2=tado un poco, y has ganado skills para asignar. Es recomendable
+Linea3= no utilizar estos skills hasta niveles más avanzados (20+)
+
+[Tutorial11]
+Evento=Deja newbie
+Linea1=¡Has dejado de ser newbie! ahora en nivel 13 ya no podrás
+Linea2=ingresar al Dungeon Newbie y tus items newbies han desapa
+Linea3=recido, ahora deberás aventurarte en las afueras de la ciudad.
+
+[Tutorial12]
+Evento=Sale zona segura
+Linea1=¡Ten cuidado! al salir de una zona segura estás vulnerable al
+Linea2=ataque de otros usuarios, puedes ver si un usuario es crimi-
+Linea3=nal por el color en que su nombre aparece.

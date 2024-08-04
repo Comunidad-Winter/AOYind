@@ -1,0 +1,133 @@
+<div class="imagen">
+    <div class="contenedor">
+        <div class="logo-cuerpo">
+            <div class="logo-ao-yind">
+                <div class="logo-a"></div>
+                <div class="logo-b"></div>
+                <div class="logo-c"></div>
+            </div>
+
+            <div class="division">
+                <div class="borde-superior">
+                    <div class="borde-superior-izq"></div>
+                    <div class="borde-superior-medio"></div>
+                    <div class="borde-superior-der"></div>
+                </div>
+                <div class="borde-medio">
+                    <div class="borde-medio-izq"></div>
+                    <div class="borde-medio-cuerpo">
+                        <div class="cabecera">
+                            <div class="links">
+                                <div class="menu-izq"></div>
+                                <div class="menu-medio">
+                                    <div class="menu-link">
+                                        <a (click)="mostrarInicioFuncion()" class="link-estilo">Inicio</a>
+                                        <a (click)="mostrarEquipoFuncion()" class="link-estilo">Equipo</a>
+                                        <a (click)="mostrarLicenciaFuncion()" class="link-estilo">Licencia</a>
+                                    </div>
+                                </div>
+                                <div class="menu-derecha"></div>
+                            </div>
+
+                            <div class="redes-sociales">
+                                <div class="discord" (click)="irDiscord()"></div>
+                                <div class="facebook" (click)="irFacebook()"></div>
+                            </div>
+
+                        </div>
+                        <div class="galeria">
+                            <div class="imagenes">
+                                <app-galeria></app-galeria>
+                            </div>
+                        </div>
+
+                        <div class="titulo-noticia">
+                            <div class="calavera"></div>
+                            <div class="cadena-borde"></div>
+                            <div class="calavera2"></div>
+                        </div>
+
+                        <div class="cuerpo">
+                            <div class="cuerpo-2">
+                                <app-noticia *ngIf="mostrarInicio"></app-noticia>
+                                <app-equipo *ngIf="mostrarEquipo"></app-equipo>
+                                <app-licencia *ngIf="mostrarLicencia"></app-licencia>
+                            </div>
+                        </div>
+
+
+                        <div class="titulo-noticia">
+                            <div class="calavera"></div>
+                            <div class="cadena-borde"></div>
+                            <div class="calavera2"></div>
+                        </div>
+                        <div class="derechos">
+                            Copyright © 2021 AO-YIND - Todos los derechos reservados <br> www.aoyind.com -
+                            www.aoyind.es - www.aoyind.com.ar
+                        </div>
+                    </div>
+                    <div class="borde-medio-der"></div>
+                </div>
+                <div class="borde-inferior">
+                    <div class="borde-inferior-izq"></div>
+                    <div class="borde-inferior-medio"></div>
+                    <div class="borde-inferior-der"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="version-movil">
+    <div class="cuerpo-movil">
+        <div class="columnas-movil">
+            <div class="logo-movil">
+                <div class="logo-movil-img"></div>
+            </div>
+            <div class="redes-sociales-movil">
+                <div class="discord-movil"  (click)="irDiscord()"></div>
+                <div class="facebook-movil"  (click)="irFacebook()"></div>
+            </div>
+            <div class="barra-superior-movil">
+                <div class="borde-superior-izq-movil"></div>
+                <div class="borde-superior-medio-movil"></div>
+                <div class="borde-superior-der-movil"></div>
+            </div>
+            <div class="barra-medio-movil">
+                <div class="borde-medio-izq-movil"></div>
+                <div class="cuerpo-medio-movil">
+                    <div class="links-movil">
+                        <a (click)="mostrarInicioFuncion()" class="link-estilo-movil">INICIO</a>
+                        <a (click)="mostrarEquipoFuncion()" class="link-estilo-movil">EQUIPO</a>
+                        <a (click)="mostrarLicenciaFuncion()" class="link-estilo-movil">LICENCIA</a>
+                    </div>
+                    <div class="link-movil">
+                        <div class="link-movil-izq"></div>
+                        <div class="link-movil-medio"></div>
+                        <div class="link-movil-der"></div>
+                    </div>
+                    <div class="contenido-movil">
+                        <app-noticia-movil *ngIf="mostrarInicio"></app-noticia-movil>
+                        <app-equipo-movil *ngIf="mostrarEquipo"></app-equipo-movil>
+                        <app-licencia *ngIf="mostrarLicencia"></app-licencia>
+                    </div>
+                    <div  class="link-movil">
+                        <div class="link-movil-izq"></div>
+                        <div class="link-movil-medio"></div>
+                        <div class="link-movil-der"></div>
+                    </div>
+                    <div class="derechos">
+                            Copyright © 2021 AO-YIND - Todos los derechos reservados <br> www.aoyind.com -
+                            www.aoyind.es - www.aoyind.com.ar</div>
+                </div>
+                <div class="borde-medio-der-movil"></div>
+            </div>
+           
+            <div class="barra-abajo-movil">
+                <div class="borde-abajo-izq-movil"></div>
+                <div class="borde-abajo-medio-movil"></div>
+                <div class="borde-abajo-der-movil"></div>
+            </div>
+        </div>
+    </div>
+</div>

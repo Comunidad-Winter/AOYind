@@ -1,0 +1,31 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'robotoRegular';
+    src: url("/assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'robotoMedium';
+    src: url("/assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'robotoBold';
+    src: url("/assets/fonts/Roboto-Bold.ttf");
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

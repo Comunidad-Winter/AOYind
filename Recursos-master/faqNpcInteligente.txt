@@ -1,0 +1,282 @@
+#####################################################################################################
+######################### NEOSEFIROT - ¿Como se configura un NPC inteligente? #############################
+########################## Archivo del servidor: NpcInteligente.dat #################################
+
+Paso 1) Crear un nuevo npc basado en el modelo del Mercader
+En el archivo NPCs.dat copiar el esqueleto de un Mercader, por ejemplo del NPC 617 o 618 que corresponde al Mercader Real o del Caos.
+Configurar el NPC del punto 1 en el archivo NPCs.dat, poner toda la informacion que solicita.
+#####################################################################################################
+Paso 2) En este documento, en INIT, en el campo NumeroNpcInteligentes, poner el NUMERO total de NPC inteligentes que hay en este documento
+Copiar el esqueleto de un NPC inteligente para tomar de referencia, pegarlo y empezar a configurar todas sus variables, que se explican a continuacion.
+En el campo NPCINTELIGENTE poner el numero del NPC en base a este documento, ejemplo NPCINTELIGENTE20.
+#####################################################################################################
+Propiedades de los NPC inteligentes:
+####### GENERAL
+#1# NumeroNPC: Poner el NUMERO DEL NPC que figura en NPCs.dat, debe ser el mismo numero del npc a aplicarle la inteligencia. 
+Ejemplo: 617 es el Mercader Real por defecto que hizo Javier, este numero lo sacamos del punto 1.
+#2# NombreRandom: Indica si se respeta el nombre del NPC en NPCs.dat o se toma uno random. 0=Mismo nombre. 1=Random
+#3# Genero: Indica si el NPC es hombre o mujer, util para el nombre random. 0=Hombre. 1=Mujer
+Los nombres random los saca del archivo NombreHombre.dat o NombreMujer.dat depende el genero del npc
+Si se crean varias copias de un mismo npc, cada uno tendra un nombre distinto.
+#4# Texto: Mensaje que aparecera en la consola del usuario al hacer click sobre el NPC Ejemplo: <Armada Real>
+#5# Fijo: Indica si el servidor crea el NPC en todo momento. 0=El servidor solo lo crea cuando hay pocos usuarios online. 
+1=El servidor SIEMPRE va a crear el NPC
+#6# Cantidad: Indica la cantidad de replicas de este npc. Por defecto es 1, caso contrario indica cuantos NPC de este tipo se quiere crear.
+En caso de poner mas de uno, se debe configurar el campo Clan
+#7# Clan: Cuando se crean varias copias de un NPC, se debe indicar si se crean todas juntas o separadas.
+Si se pone Clan=0 las copias se crean en base a las rutas definidas (puede ser en diferentes lugares del mundo)
+Si se pone Clan=1 las copias se crean juntas, se toma 1 sola ruta y se crean todas cerca
+#8# TiraHechizo: Indica si el NPC tira hechizos de combate. 0=El NPC no usa magia, no tira hechizos. 1=El NPC tira hechizos, usa magia.
+#9# PegaUsuario: Indica si el NPC pega a un usuario enemigo cuando lo tiene al lado, o sea que combate cuerpo a cuerpo. 
+0=No pega cuerpo a cuerpo. 1=Pega cuerpo a cuerpo
+#10# TiempoEsperaMinuto: Tiempo expresado en minutos, que el npc espera para empezar a caminar, minimo valor posible = 1 
+#11# CrearInicioServer: Indica si el NPC es creado al iniciar el servidor. 0=NO. 1=SI
+#12# TiempoRenacer: Tiempo en minutos, para que el NPC pueda revivir una vez que lo mataron. Si se pone 0, revive al instante que muere.
+Si se pone otro valor, el servidor espera a que pase ese tiempo, para revivir al NPC
+#13# Aura: Indica si al NPC le aparece un aura debajo de su personaje. 
+El 0 es QUE NO USA AURA, caso contrario poner el NUMERO DE AURA que figura en Auras.ini
+#####################################################################################################
+####### EQUIPO
+#14# Mana: Valor numerico del mana del npc. Ejemplo: 2000. Importante al momento de tirar hechizos.
+#15# PocionesRojas: Cantidad de pociones rojas que tendra el NPC al nacer. Dichas pociones las va consumiendo. Cuando muere se reinicia.
+Poner un numero con la cantidad total de pociones rojas: Ejemplo 800
+#16# PocionesAzules: Cantidad de pociones azules que tendra el NPC al nacer. Dichas pociones las va consumiendo. Cuando muere se reinicia.
+Poner un numero con la cantidad total de pociones azules: Ejemplo 800
+#17# OroInicial: Oro con el inicia el NPC, valor por defecto: 0
+#18# IncrementoOro: Poner un numero, que indica como se incrementa el oro del NPC cada cierto tiempo, valor por defecto:0
+#19# OroMaximo: Poner un numero, que indica el oro maximo que puede tener el NPC, valor por defecto:0
+#####################################################################################################
+####### ATAQUE
+#20# TiraFlecha: Indica si el NPC ataca a distancia con flechas. 0=No. 1=Si.
+#21# TiraRemo: Indica si el NPC tira el hechizo remover paralizis. 0=No. 1=Si.
+#22# TiraCurarGraves: Indica si el NPC tira el hechizo curar heridas graves. 0=No. 1=Si.
+#23# TiraInmo: Indica si el NPC tira el hechizo inmovilizar. 0=No. 1=Si.
+#24# TiraEstupidez: Indica si el NPC tira el hechizo estupidez. 0=No. 1=Si.
+#25# TiraCeguera: Indica si el NPC tira el hechizo ceguera. 0=No. 1=Si.
+#26# TiraHambreIgor: Indica si el NPC tira el hechizo terrible hambre del igor. 0=No. 1=Si.
+#27# TiraApoca: Indica si el NPC tira el hechizo apocalipsis. 0=No. 1=Si.
+#28# TiraDescarga: Indica si el NPC tira el hechizo descarga electrica. 0=No. 1=Si.
+#29# TiraTormentaFuego: Indica si el NPC tira el hechizo tormenta de fuego. 0=No. 1=Si.
+#30# TiraVerInvi: Indica si el NPC tira el hechizo para volver visible a un usuario invisible. 0=No. 1=Si.
+#31# TiraCeleridad: Indica si el NPC tira el hechizo celeridad. 0=No. 1=Si.
+#32# AtaqueAreaProb: Indica la probabilidad que el NPC tire un hechizo con daño de area. Es un rango entre 0 y 100
+El 0 indica NUNCA, el 100 indica SIEMPRE, por lo tanto poner que probabilidad se quiere.
+#33# ApuProb: Indica la probabilidad que el NPC apuñale a un usuario en un combate cuerpo a cuerpo. Es un rango entre 0 y 100
+El 0 indica NUNCA, el 100 indica SIEMPRE, por lo tanto poner que probabilidad se quiere.
+#34# NroHechizoInvocacion: Indica si el NPC tira algun hechizo de invocacion, ej: invocar arañas, lobos, etc.
+El 0 indica NUNCA, caso contrario poner el NUMERO DE HECHIZO que figura en Hechizos.dat de la invocacion
+#####################################################################################################
+####### MODO DE JUEGO
+#35# AtacaNpcInteligenteEnemigo: Si el NPC se cruza con un npc inteligente de DISTINTA alineacion en su ruta. 
+0=NO lo ataca y sigue su camino. 1=Lo ataca y empieza un combate
+#36# AyudaNpcInteligenteAliado:  Si el NPC se cruza con un npc inteligente de la MISMA alineacion en su ruta y dicho npc esta en combate. 
+0=NO lo ayuda y sigue su camino. 1=Lo ayuda (le tira remover paralizis y curar heridas graves)
+#37# AtacaNpcSinInteligencia: A modo visual, para dar mas realismo, si el NPC inteligente, en su ruta se cruza con un NPN SIN inteligencia (ej: un lobo). 
+0=No lo ataca y sigue. 1=Lo ataca (le tira algun hechizo)
+#38# AyudaUsuarioAliado: Si en el camino del NPC inteligente, se cruza con un usuario de LA MISMA ALINEACION y el usuario esta peleando con otro usuario
+o con otro NPC inteligente. 0=No lo ayuda y sigue su camino. 1=Lo ayuda (le tira remover paralizis, curar heridas graves y celeridad)
+#39# EsJefe: Indica si un NPC es jefe, quiere decir, que todos los demas NPC inteligentes de la MISMA alineacion que esten cerca de el,
+SIEMPRE lo van a ayudar cuando este en combate, le van a dar prioridad y lo van a proteger, lo van a curar, remover paralizis, etc.
+0=NO es jefe, es un NPC normal. 1=es JEFE y es protegido por los otros nps inteligentes de la misma faccion que estan en su rango de vision
+#40# EscoltarUsuario: Indica si el NPC escolta a un usuario, quiere decir que lo va a seguir en todo momento, lo va a proteger en caso de combate
+con otros npcs o usuarios (le tira remover paralizis, curar heridas graves y celeridad). Ademas lo ayuda atacando a los otros npc
+o sea funciona como un elemental de agua o una mascota. 0=El npc NO escolta a un usuario. 1=El NPC puede escoltar a un usuario.
+#####################################################################################################
+######## MENSAJES que dice el NPC a un usuario en su rango de vision. 
+######## Completar solo si se quiere que diga algo para ese caso. Caso contrario dejar en blanco.
+#41# MsjRandom: Indica si el NPC dice frases random o definidas. 
+'Si ponen 0 tienen que definir los mensajes aca abajo (los que quieran)
+'Si ponen 1 se lee frases al azar del archivo frases.dat, por lo tanto no completar ningun mensaje de abajo, dejarlos en blanco
+#42# MsjAgresorInvi: Un usuario invisible ataca al NPC, mensaje que el NPC le dice al usuario.
+#43# MsjNuevoAgresor: Mensaje que dice el NPC a un nuevo agresor. 
+#44# MsjAgresorRandom1: En pleno combate con el agresor, puede tirar esta frase. 
+#45# MsjAgresorRandom2: En pleno combate con el agresor, puede tirar esta frase. 
+#46# MsjAgresorRandom3: En pleno combate con el agresor, puede tirar esta frase.
+#47# MsjAvisoPosibleAgresor: Mensaje que dice el npc a un usuario que esta cerca y es alineacion contraria.
+#48# MsjNoMolestes: Mensaje que dice el npc a un usuario que esta cerca y es alineacion contraria.
+#49# MsjAntesMorir: Mensaje que dice el npc antes de morir, luego muere.
+#50# MsjUsuarioMatado: Mensaje que dice el npc a un usuario que mato.
+#####################################################################################################
+####### DESTINO INICIO Y FIN, CAMPO OPCIONAL, si se deja vacio, no se muestra nada
+#52# InicioRuta: Informa al usuario que le hace click al npc, el origen de la ruta
+#53# DestinoFinalRuta: Informa al usuario que le hace click al npc, el destino de la ruta
+#####################################################################################################
+####### RUTAS
+#51# NRORUTAS: Indica la cantidad de posibles rutas que pueder. tener un npc, valor minimo: 1
+Al momento de nacer, si el NPC tiene mas de una ruta, se toma una random.
+Al momento de nacer, si el NPC tiene SOLO UNA ruta, se toma esa unica ruta.
+CADA RUTA DEBE TENER LO SIGUIENTE, REEMPLAZAR NRO POR EL ID QUE LE CORRESPONDE A LA RUTA:
+RutaNRO : CAMPO OBLIGATORIO, PONER LA RUTA EN FORMATO x,y;x,y;x,y...
+Ejemplo:
+NRORUTAS:2
+Ruta1=297,859;285,863;285,845;277,838
+Ruta2=292,687;296,683;296,617;300,615
+############################### FIN VARIABLES ######################################
+
+
+
+############################### ESQUELETOS ######################################
+########## MODELO MERCADER PARA NPCs.dat #############
+########## CAMBIAR EL NUMERO DE NPC POR QUE EL VA.. EJEMPLO NPC620
+
+[NPC617] 'Mercader Real
+Name=!Sir Barlashen
+NpcType=10
+Head=10
+Heading=3
+Body=92
+Arma=13
+Escudo=7
+Casco=8
+Movement=11
+Attackable=1
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+GiveEXP=0
+GiveGLDMin=0
+MinHP=455
+MaxHP=455
+MaxHIT=200
+MinHIT=115
+DEF=30
+PoderAtaque=400
+PoderEvasion=190
+LanzaSpells=5
+Sp1=10
+Sp2=24
+Sp3=25
+Sp4=23
+Sp5=1
+NROITEMS=2
+Obj1=38-1
+Obj2=37-1
+
+###############################################################################################
+########## MODELO NPC INTELIGENTE PARA NpcInteligente.dat #############
+########## CAMBIAR EL NUMERO DE NPC INTELIGENTE POR QUE EL VA.. EJEMPLO NPCINTELIGENTE20
+
+########## IMPORTANTE: LUEGO DE AGREGAR UN NUEVO NPC INTELIGENTE, SUMAR EL CONTADOR NumeroNpcInteligentes
+########## que se encuentra en el inicio del archivo NpcInteligente.dat dentro del campo INIT
+
+[NPCINTELIGENTE1]
+NumeroNPC=617
+NombreRandom=0
+Genero=0
+Texto=<CLAN MAGIA NEGRA>
+Fijo=0
+Cantidad=1
+Clan=0
+TiraHechizo=1
+PegaUsuario=1
+TiempoEsperaMinuto=1
+CrearInicioServer=1
+TiempoRenacer=0
+Aura=0
+Mana=2000
+PocionesRojas=800
+PocionesAzules=900
+OroInicial=1
+IncrementoOro=1
+OroMaximo=100
+TiraFlecha=0
+TiraRemo=1
+TiraCurarGraves=0
+TiraInmo=1
+TiraEstupidez=0
+TiraCeguera=0
+TiraHambreIgor=0
+TiraApoca=1
+TiraDescarga=1
+TiraTormentaFuego=0
+TiraVerInvi=1
+TiraCeleridad=0
+AtaqueAreaProb=0
+ApuProb=0
+NroHechizoInvocacion=0
+AtacaNpcInteligenteEnemigo=0
+AyudaNpcInteligenteAliado=0
+AtacaNpcSinInteligencia=0
+AyudaUsuarioAliado=0
+EsJefe=0
+EscoltarUsuario=0
+MsjRandom=0
+MsjAgresorInvi=jaja, ¿piensas que te puedes ocultar de mi?
+MsjNuevoAgresor=¡Lamentarás el momento en que te cruzaste conmigo rufián!
+MsjAgresorRandom1=¡Bastardo! No lograrás robarme las mercancías mientras siga con vida.
+MsjAgresorRandom2=Te has cruzado con la persona equivocada.
+MsjAgresorRandom3=No te dejaré salir con vida.
+MsjAvisoPosibleAgresor=¡Aléjate patán o sufrirás mi ira!
+MsjNoMolestes=No me estorbes patán o sufrirás mi ira.
+MsjAntesMorir=Adios mundo cruel!
+MsjUsuarioMatado=Mira como te fue...
+InicioRuta=Ullathorpe
+DestinoFinalRuta=Banderbill
+NroRutas=1
+Ruta1=297,859;285,863;285,845;277,838;277,802;285,794;293,793;292,687;296,683;296,617;300,615;301,557;305,556;305,520;317,519;315,492;305,491;305,346;296,344;296,282;292,277;292,222
+
+
+########## AGREGAR NOMBRES DE HOMBRE Y MUJER EN NombreHombre.dat y NombreMujer.dat #############
+
+
+##################### VARIABLES FUNCIONALES Y EN DESARROLLO
+##################### ACTUALIZADO: 18/05/2021 - NEOSEFIROT
+
+NumeroNPC= LISTO
+NombreRandom= EN DESARROLLO
+Genero= EN DESARROLLO
+Texto= LISTO
+Fijo= EN DESARROLLO
+Cantidad= EN DESARROLLO
+Clan= EN DESARROLLO
+TiraHechizo= EN DESARROLLO
+PegaUsuario= EN DESARROLLO
+TiempoEsperaMinuto= LISTO
+CrearInicioServer= EN DESARROLLO
+TiempoRenacer= EN DESARROLLO
+Aura= EN DESARROLLO
+Mana= LISTO
+PocionesRojas= LISTO
+PocionesAzules= LISTO
+OroInicial= LISTO
+IncrementoOro= LISTO
+OroMaximo= LISTO
+TiraFlecha= EN DESARROLLO
+TiraRemo= EN DESARROLLO
+TiraCurarGraves= EN DESARROLLO
+TiraInmo= EN DESARROLLO
+TiraEstupidez= EN DESARROLLO
+TiraCeguera= EN DESARROLLO
+TiraHambreIgor= EN DESARROLLO
+TiraApoca= EN DESARROLLO
+TiraDescarga= EN DESARROLLO
+TiraTormentaFuego= EN DESARROLLO
+TiraVerInvi= EN DESARROLLO
+TiraCeleridad= EN DESARROLLO
+AtaqueAreaProb= EN DESARROLLO
+ApuProb= EN DESARROLLO
+NroHechizoInvocacion= EN DESARROLLO
+AtacaNpcInteligenteEnemigo= EN DESARROLLO
+AyudaNpcInteligenteAliado= EN DESARROLLO
+AtacaNpcSinInteligencia= EN DESARROLLO
+AyudaUsuarioAliado= EN DESARROLLO
+EsJefe= EN DESARROLLO
+EscoltarUsuario= EN DESARROLLO
+MsjRandom= EN DESARROLLO
+MsjAgresorInvi= LISTO
+MsjNuevoAgresor= LISTO
+MsjAgresorRandom1= LISTO
+MsjAgresorRandom2= LISTO
+MsjAgresorRandom3= LISTO
+MsjAvisoPosibleAgresor= LISTO
+MsjNoMolestes= LISTO
+MsjAntesMorir= EN DESARROLLO
+MsjUsuarioMatado= EN DESARROLLO
+InicioRuta= LISTO
+DestinoFinalRuta= LISTO
+NroRutas= LISTO
+LISTADO DE RUTAS= LISTO
+
+################################# FIN DEL ARCHIVO #####################################

@@ -1,0 +1,1341 @@
+[INIT]
+NumQuests=76
+ 
+
+[QUEST1]
+Nombre=Estamina
+Desc=Aveces muchas muertes son causa de la mala alimentacion.. Debes de comer y beber para mantener siempre una buena energia que te permita viajar y defenderte! por cierto.. tengo hambre! me traes 1 pollo y un vino??
+DescFinal=Increible! un pollo bien hermoso y una botella de vino de calidad,agarra este hacha y tendre mas misiones para ti!
+RequiredLevel=1
+ 
+RequiredOBJs=2
+RequiredOBJ1=26-1
+RequiredOBJ2=42-1
+ 
+RequiredNPCs=0
+RequiredNPC1=0
+ 
+RewardGLD=100
+RewardEXP=150
+ 
+RewardOBJs=1
+RewardOBJ1=127-1
+PosMap=1
+ 
+[QUEST2]
+Nombre=Cansancio
+Desc=Despues de comer tanto me siento muy cansado y tengo frio,una de las maneras de recuperar estamina rapida es haciendo una fogata,tengo ya una daga,pero necesitaria 3 maderas para hacer fuego,me las traes??
+Descfinal= Ahora si! estoy con energia suficiente para cualquier cosa! Toma esta espada,la puede usar cualquier clase!
+RequiredLevel=3
+ 
+RequiredOBJs=1
+RequiredOBJ1=58-3
+
+RewardGLD=175 
+RewardEXP=250
+ 
+RewardOBJs=1
+RewardOBJ1=2-1
+PosMap=1
+ 
+[QUEST3]
+Nombre=Combate
+Desc=Cualquiera se encuentra preocupado por el peligro que tienen criaturas que habitan aqui,pero armate de valor.. Mata unos cuantos NPC con la espada que te di y aprende a pegar y alegarte para no ser golpeado !
+DescFinal=Pareces un experto ya! toma estas pociones para curarte de el daño que ayas sufrido!
+RequiredLevel=5
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+ 
+RequiredNPCs=4
+RequiredNPC1=504-10
+RequiredNPC2=634-15
+RequiredNPC3=506-15
+RequiredNPC4=501-5
+
+RewardGLD=300
+RewardEXP=950
+ 
+RewardOBJs=4
+RewardOBJ1=491-100
+RewardOBJ2=461-100
+RewardOBJ3=462-50
+RewardOBJ4=166-10
+PosMap=1
+
+[QUEST4]
+Nombre=Comercio
+Desc=El comercio es muy importante,ganar dinero es vital para poder equiparte,los npcs dropean objetos y oro,pero tambien puedes TRABAJAR! no seas vago!
+DescFinal=Veo que as pescado un buen rato! vende los pescados y mira cuanto oro!!! toma este piquete asi podras minar!
+RequiredLevel=7
+ 
+
+RequiredSkill=1
+RequiredSkill1comercio=10
+
+RequiredOBJs=2
+RequiredOBJ1=138-1
+RequiredOBJ2=139-100
+ 
+RequiredNPCs=0
+RequiredNPC1=0
+
+RewardGLD=100
+RewardEXP=1550
+ 
+RewardOBJs=1
+RewardOBJ1=187-1
+PosMap=1
+
+
+
+[QUEST5]
+Nombre=Ocultarse
+Desc=Aveces es mas inteligente ocultarse que pelear!puedes sobrevivir ocultandote...aunque te llamen cobarde!! Practica con la tecla o hasta tener 18 Skills en Ocultar!
+DescFinal=Donde estas?? jejejeje ahi te veo,aun te falta aprender mucho para dominar este arte,pero no lo olvides!
+RequiredLevel=9
+
+RequiredSkill=1
+RequiredSkill1Ocultar=18
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+ 
+RequiredNPCs=0
+RequiredNPC1=0
+
+RewardGLD=500
+RewardEXP=1975
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST6]
+Nombre=Carpinteria
+Desc=La carpinteria te abrira las puertas a todo un mundo por explorar! pues si aprendes este trabajo,podras crear un barco que te permita explorar el mundo de Argentum!creame una cuchara para ver si eres capaz!
+DescFinal=Cada vez estas mas preprado para dejar de ser Newbie! Y toma este martillo,que te explicare para que sirve!
+
+RequiredLevel=11
+ 
+RequiredOBJs=1
+RequiredOBJ1=163-1
+ 
+RequiredNPCs=0
+RequiredNPC1=0
+
+RewardGLD=500
+RewardEXP=2500
+ 
+RewardOBJs=1
+RewardOBJ1=389-1
+PosMap=1
+
+[QUEST7]
+Nombre=Herreria
+Desc=Es la ultima cosa que te voy a enseñar! lo demas tendras que aprenderlo solo...Coje el martillo que te entrege y traeme una daga +1
+DescFinal=Lo siento pero..  Tu ya no eres newbie! Adelante Aventurero!!!
+
+RequiredLevel=12
+ 
+RequiredOBJs=1
+RequiredOBJ1=165-1
+ 
+RequiredNPCs=0
+RequiredNPC1=0
+
+RewardGLD=1000
+RewardEXP=12142
+ 
+RewardOBJs=1
+RewardOBJ1=389-1
+PosMap=1
+
+----------------------------Quest Ullathorpe Ciudad te taladores y carpinteros---------------------------------------
+
+[QUEST8]
+Nombre=Tortugas
+Desc=A la izquierda de esta ciudad ahi un bosque con tortugas,mata una y traeme su caparazon,asi podre defenderme con el!
+DescFinal= Gracias! el escudo de tortuga es usado por casi todas las clases! toma unas pociones!
+RequiredLevel=13
+ 
+RequiredOBJs=1
+RequiredOBJ1=404-1
+
+RequiredNPCs=1
+RequiredNPC1=539-1
+ 
+RewardGLD=500
+RewardEXP=1000
+ 
+RewardOBJs=1
+RewardOBJ1=38-100
+PosMap=1
+
+[QUEST9]
+Nombre=Bosque Dork
+Desc=Debajo de esta ciudad esta el famoso bosque dork,un lugar muy peligroso,quiero viajar a las minas de esa zona,pero esta el camino invadido de criaturas,me despejas el camino?
+DescFinal= Gracias! ahora si me atrevo a pasar por el bosque! toma estos objetos que encontre!
+RequiredLevel=13
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+
+RequiredNPCs=4
+RequiredNPC1=501-4
+RequiredNPC2=510-1
+RequiredNPC3=523-2
+RequiredNPC4=636-6
+ 
+RewardGLD=2000
+RewardEXP=3500
+ 
+RewardOBJs=2
+RewardOBJ1=19-1
+RewardOBJ2=204-1
+PosMap=1
+
+[QUEST10]
+Nombre=Infectados
+Desc=Hola de nuevo! ahi una plaga de zombies y mueros vivientes que me impide ir de Ullathorpe a Nix! porfavor mata a esos infectados!
+DescFinal= No es que yo no puediera matarlos eh... em... pero es que... enfin toma estos regalos por tu recompensa!si no te sirven... vendelos!
+RequiredLevel=14
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+
+RequiredNPCs=3
+RequiredNPC1=507-3
+RequiredNPC2=502-4
+RequiredNPC3=503-5
+ 
+RewardGLD=1750
+RewardEXP=3500
+ 
+RewardOBJs=2
+RewardOBJ1=529-1
+RewardOBJ2=668-1
+PosMap=1
+
+[QUEST11]
+Nombre=Dungeon Marabel
+Desc=Unos malditos ogros andan a sus anchas en el dungeon marabel,esta aqui mismo,arriba a la izquierda,ten cuidado,esta mision es mucho mas peligrosa que las demas.
+DescFinal= como????? pense que no volverias con vida de alli! me as dejado sin palabras!!!
+RequiredLevel=15
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+
+RequiredNPCs=1
+RequiredNPC1=511-2
+ 
+RewardGLD=2000
+RewardEXP=5500
+ 
+RewardOBJs=3
+RewardOBJ1=38-150
+RewardOBJ2=23-5
+RewardOBJ3=43-5
+PosMap=1
+
+[QUEST12]
+Nombre=Plaga escorpiones
+Desc=Estoy arto de las plagas,no te dejan viajar comodamente,en el desierto,a la derecha de esta ciudad,ahi una enorme plaga de escorpiones y soy muy sensible a su veneno,puedes limpiar un poco la zona?
+DescFinal=  Es increible el potencial que tienes,sin duda,debes ser recompensado!
+RequiredLevel=16
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+
+RequiredNPCs=1
+RequiredNPC1=529-20
+ 
+RewardGLD=2500
+RewardEXP=6500
+ 
+RewardOBJs=3
+RewardOBJ1=166-15
+RewardOBJ2=365-1
+RewardOBJ3=203-1
+PosMap=1
+
+[QUEST13]
+Nombre=Asesino
+Desc=Ahi un asesino camino a Banderbill,esta causando estragos,son muchos los que an muerto en esa zona,puedes terminar con el?
+DescFinal= Siiiii!!!!!! contigo es tan facil todo..... Toma tengo cosas para ti!
+RequiredLevel=17
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+
+RequiredNPCs=1
+RequiredNPC1=531-1
+ 
+RewardGLD=4500
+RewardEXP=7500
+ 
+RewardOBJs=3
+RewardOBJ1=478-1
+RewardOBJ2=480-150
+RewardOBJ3=36-30
+PosMap=1
+
+[QUEST14]
+Nombre=La Balsa
+Desc=Aqui no tienes nada que hacer ya..todo esta en paz,mMm espera.. traeme 2000 leños y te are una Balsa para que puedas navegar a zonas poco profundas.
+DescFinal= Aqui tienes! a Navegar!!!
+RequiredLevel=18
+ 
+RequiredOBJs=1
+RequiredOBJ1=58-2000
+
+RequiredNPCs=0
+RequiredNPC1=0
+ 
+RewardGLD=0
+RewardEXP=0
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+---------------------------------------- quest nix ciudad de pescadores ----------------------------------
+[QUEST15]
+Nombre=Catacumbas
+Desc=Las catacubmas estan infectadas de arañas y los newbies no se atreben a pasar por ellas,mata 5 arañas para despejar la zona,si puedes claro!
+DescFinal= ja ja ja, esta era facil... solo una pequeña prueba.
+RequiredLevel=19
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+
+RequiredNPCs=1
+RequiredNPC1=510-5
+ 
+RewardGLD=2250
+RewardEXP=6250
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+[QUEST16]
+Nombre=Navegando
+Desc=Los pescadores tienen miedo de pescar,Ahi unos tiburon rondando estas orillas de nix,deberias de tener una balsa para navegarbuscalo y acaba con el!
+DescFinal=Ahora los pescadores estan tranquilos,toma estos regalos.
+RequiredLevel=20
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+
+RequiredNPCs=1
+RequiredNPC1=606-2
+ 
+RewardGLD=3000
+RewardEXP=7250
+ 
+RewardOBJs=2
+RewardOBJ1=131-1
+RewardOBJ2=383-1
+PosMap=1
+
+
+[QUEST17]
+Nombre=Escudos
+Desc=Necesito escudos para mi clan,aqui a la derecha viven muchas tortugas gigantes,traeme 10 caparazones para poder protejernos de la gran batalla que se aproxima!
+DescFinal=Gracias!
+RequiredLevel=21
+ 
+RequiredOBJs=1
+RequiredOBJ1=404-10
+
+RequiredNPCs=1
+RequiredNPC1=539-10
+ 
+RewardGLD=3000
+RewardEXP=7750
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST18] ' falta implementar la piel de cocodrilo
+Nombre=Pantano
+Desc=La guerra la ganamos JE! ahora tenemos que celebrarlo,matame unos cuantos cocodrilos y traeme sus pieles para hacerme una buena vestimenta de fiesta.
+DescFinal= Toma,esta vestimenta ya no la voy a usar mas.
+RequiredLevel=22
+ 
+RequiredOBJs=0
+RequiredOBJ1=0=10
+
+RequiredNPCs=1
+RequiredNPC1=612-10
+ 
+RewardGLD=3000
+RewardEXP=7750
+ 
+RewardOBJs=1
+RewardOBJ1=239-1
+PosMap=1
+
+[QUEST19]
+Nombre=Cazeria
+Desc=Estoy cansado y herido,me ataco un oso salvaje,ten cuidado,si lo matas y me traes unas pociones y viveres te recompensare amigo!
+DescFinal= Gracias,ya me siento bastante mejor.
+RequiredLevel=14
+ 
+RequiredOBJs=3
+RequiredOBJ1=38-25  'pocion roja
+RequiredOBJ2=1-4 ''manzana roja
+RequiredOBJ3=43-2 ' botella agua
+
+RequiredNPCs=1
+RequiredNPC1=538-1 'oso pardo
+ 
+RewardGLD=5000
+RewardEXP=10000
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST20]
+Nombre=Catacumbas
+Desc=Despeja todo el camino de arañas de las catacumbas!
+DescFinal= Gracias.. aun asi no se si entrare...
+RequiredLevel=16
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+
+RequiredNPCs=1
+RequiredNPC1=510-15
+ 
+RewardGLD=3000
+RewardEXP=20000
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST21]
+Nombre=Minas de oro
+Desc=Siempre intento minar oro,pero me es imposible...no para de venir gente peligrosa...me faltan 2000 minerales de oro,me los puedes conseguir tu??
+DescFinal= Aja!! Ahora podre hacerme una espada mata dragones!
+RequiredLevel=25
+ 
+RequiredOBJs=1
+RequiredOBJ1=194-2000
+
+RequiredNPCs=0
+RequiredNPC1=0
+ 
+RewardGLD=30000
+RewardEXP=75000
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST22]
+Nombre=Pescados
+Desc=Vaya... uff.. se a roto mi caña,puedes pescarme 100 pescados PORFA VOR?
+DescFinal= Aja!! Los vendere al mercado para comprar otra caña. GRACIAS!
+RequiredLevel=10
+ 
+RequiredOBJs=1
+RequiredOBJ1=139-100
+
+RequiredNPCs=0
+RequiredNPC1=0
+ 
+RewardGLD=0
+RewardEXP=6000
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST23]
+Nombre=Matadragones
+Desc=EH EH,Que tenga una espada matadragones,no quiere decir que te la de asi como asi....
+DescFinal= Esta bien..pense que no serias capaz de ello..pero toma la maldita espada...
+RequiredLevel=35
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+
+RequiredNPCs=5
+RequiredNPC1=553-2
+RequiredNPC2=554-5
+RequiredNPC3=550-3
+RequiredNPC4=552-1
+RequiredNPC5=567-10
+ 
+RewardGLD=20000
+RewardEXP=50000
+ 
+RewardOBJs=1
+RewardOBJ1=402-1
+PosMap=1
+
+[QUEST24]
+Nombre=Armamento
+Desc=No tengo armas y esta zona es muy peligrosa,traeme un arco y flechas para poder atacar a la distancai!
+DescFinal= Gracias!!! ahora me siento mucho mas seguro.
+RequiredLevel=15
+ 
+RequiredOBJs=2
+RequiredOBJ1=478-1
+RequiredOBJ2=480-200
+
+RequiredNPCs=0
+RequiredNPC1=0
+
+ 
+RewardGLD=5000
+RewardEXP=12000
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+[QUEST25]
+Nombre=Defensa
+Desc=Las armas a distancia son poderosas,pero no siempre puedes estar lejos...trame una espada y unas pociones rojas,quiero marchar de aqui con vida!
+DescFinal= Gracias!!! ahora podre irme e reposar en la ciudad.
+RequiredLevel=15
+ 
+RequiredOBJs=2
+RequiredOBJ1=19-1
+RequiredOBJ2=38-50
+
+RequiredNPCs=0
+RequiredNPC1=0
+
+ 
+RewardGLD=6000
+RewardEXP=10000
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST26]
+Nombre=Gollum
+Desc=PEDIR COMIDA,COMER,SI CARNE TESORO,COMEREMOS SI,CHULETAS TRAERNOS
+DescFinal= MAS FAVOR SI TESORO ,SACARME SI
+RequiredLevel=15
+ 
+RequiredOBJs=2
+RequiredOBJ1=42-1
+RequiredOBJ2=27-2
+
+RequiredNPCs=0
+RequiredNPC1=0
+
+ 
+RewardGLD=1500
+RewardEXP=1500
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+[QUEST27]
+Nombre=Smeagol
+Desc=Soy Sméagol,tu amigo,Gollum malo,cuidado,no hacermos caso,el malo,peligroso,se comio todo!
+DescFinal= Alejate de gollum va a venir!
+RequiredLevel=15
+ 
+RequiredOBJs=2
+RequiredOBJ1=43-1
+RequiredOBJ2=26-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=1500
+RewardEXP=1500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST28]
+Nombre=Gollum
+Desc=QUIERE ROBARNOS,Smmeagol CALLA! TESORO QUERER ROBAR SI ROBAR TESORO,PELIGROSO TRAE POCION ESPECIAL Y YO DAR TESORO.
+DescFinal= TOMAR POCION PARA REGALO SI TESORO TSORO MIO
+RequiredLevel=15
+ 
+RequiredOBJs=1
+RequiredOBJ1=645-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=1500
+RewardEXP=1500
+RewardOBJs=1
+RewardOBJ1=645-1
+PosMap=1
+
+[QUEST29]
+Nombre=Asesino
+Desc=Por estas zonas,ahi unos asesinos negros que nos complican la seguridad,me echas una mano?o no tienes valor suficiente...
+DescFinal= Gracias! menos faena para nosotros jejejeje
+RequiredLevel=15
+ 
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=531-2
+RewardGLD=4500
+RewardEXP=4500
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST30]
+Nombre=La Vigilancia
+Desc=la vigilancia es dura,llevo muchas guardias seguidas,me traes algo de comer y beber?
+DescFinal= oh,esta recien echo!
+RequiredLevel=5
+ 
+RequiredOBJs=2
+RequiredOBJ1=43-2
+RequiredOBJ2=64-10
+
+RequiredNPCs=0
+RequiredNPC1=0
+ 
+RewardGLD=1000
+RewardEXP=500
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST31]
+Nombre=Cueva aracnida
+Desc=Quiero entrenar un poco,pero es que ahi una plaga de arañas gigantes,puedes despegarme la entrada?
+DescFinal= Ahora si me atrevo a caminar por la cueva!
+RequiredLevel=13
+RequiredOBJs=0
+RequiredOBJ1=0
+
+RequiredNPCs=1
+RequiredNPC1=510-5
+ 
+RewardGLD=5000
+RewardEXP=3500
+ 
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST32]
+Nombre=Descansando
+Desc=El vino es bueno y la cerveza un manjar,pero la comida un desastre...puedes traerme algo rico de las zonas bajas?
+DescFinal= Esto si es comida de verdad!
+RequiredLevel=4
+RequiredOBJs=4
+RequiredOBJ1=25-10
+RequiredOBJ2=28-2
+RequiredOBJ3=29-1
+RequiredOBJ4=21-4
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=1000
+RewardEXP=750
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST33]
+Nombre=Almas
+Desc=Traeme 10 almas de guardias de la zona,sembraremos el caos en este reino.
+DescFinal= NECESITO MUCHAS MUCHAS MAS ALMAS!!!
+RequiredLevel=13
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=86-10
+RewardGLD=10000
+RewardEXP=7500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+[QUEST34]
+Nombre=Almas
+Desc=Las almas puras son las mas apreciadas en el infierno!traeme mas!
+DescFinal= Estas siguen siendo pocas almas...
+RequiredLevel=13
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=87-15
+RewardGLD=10000
+RewardEXP=7500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST35]
+Nombre=Almas
+Desc=Estas almas son mas poderosas!
+DescFinal= NECESITO MUCHAS MUCHAS MAS ALMAS!!!
+RequiredLevel=13
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=85-10
+RewardGLD=10000
+RewardEXP=7500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST36]
+Nombre=Almas
+Desc=El alma de un rey... es algo muy muy poderoso y preciado traeme una!
+DescFinal=Con esto me doy por satisfecho
+RequiredLevel=13
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=904-1
+RewardGLD=10000
+RewardEXP=7500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST37]
+Nombre=Equipamiento
+Desc=Necesitare una daga +4 para defenderme en el viaje y una armadura ligera.
+DescFinal=necesitare mas cosas.
+RequiredLevel=18
+RequiredOBJs=2
+RequiredOBJ1=559-1
+RequiredOBJ2=499-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=50000
+RewardEXP=27500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST38]
+Nombre=Provisiones
+Desc=Tambien necesitare provisiones para sobrevivir
+DescFinal=necesitare mas cosas.
+RequiredLevel=18
+RequiredOBJs=2
+RequiredOBJ1=24-5
+RequiredOBJ2=43-3
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=10000
+RewardEXP=7500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+[QUEST39]
+Nombre=Mapa de mundos
+Desc=Ahora solo necesito el mapa de mundos para marchar,se rumorea que una brujo superior tiene este mapa!
+DescFinal=Gracias ya estoy completo para viajar!
+RequiredLevel=18
+RequiredOBJs=1
+RequiredOBJ1=41-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=10000
+RewardEXP=7500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST40]
+Nombre=Ayuda
+Desc=Soy un humilde mendigo,me llamo Horacio,me desterraron por andar robando en tiempos de crisis,dame algo porfavor.
+DescFinal=Gracias!
+RequiredLevel=1
+RequiredOBJs=3
+RequiredOBJ1=1-10
+RequiredOBJ2=43-10
+RequiredOBJ3=15-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=0
+RewardEXP=750
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST41]
+Nombre=Ayuda
+Desc=No te sere fiel,aunque parezca que si,me siges ayudando?amigo.
+DescFinal=Gracias!
+RequiredLevel=2
+RequiredOBJs=3
+RequiredOBJ1=404-1
+RequiredOBJ2=1002-1
+RequiredOBJ3=38-50
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=0
+RewardEXP=750
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST42]
+Nombre=Flechas
+Desc=Tengo que llevarle unas flechas a un Arquero Elfo,consigemelas y seas recompensado!
+DescFinal=Gracias!
+RequiredLevel=13
+RequiredOBJs=1
+RequiredOBJ1=552-500
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=10000
+RewardEXP=17500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST43]
+Nombre=Embarcacion
+Desc=Mi capitan me abandono y ahora quiero montar mi propia tribulacion pirata,consigeme una embarcacion muchacho,te pagare bien!
+DescFinal=Gracias!
+RequiredLevel=13
+RequiredOBJs=1
+RequiredOBJ1=476-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=150000
+RewardEXP=37500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST44]
+Nombre=Casco
+Desc=Un buen casco de plata para un buen guerrero! tramelo y te compensare!
+DescFinal=Gracias!
+RequiredLevel=13
+RequiredOBJs=1
+RequiredOBJ1=405-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=20000
+RewardEXP=17500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+[QUEST45]
+Nombre=Ropa de fiesta
+Desc=Traeme un vestido y bailare contigo toda la noche!
+DescFinal=Ha sido un honor bailar contigo toma esta cerveza!
+RequiredLevel=15
+RequiredOBJs=1
+RequiredOBJ1=879-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=20000
+RewardEXP=17500
+RewardOBJs=1
+RewardOBJ1=160-1
+PosMap=1
+
+[QUEST46]
+Nombre=barca
+Desc=viajar con el barco de otros sale bastante caro,mejor un barco propio!
+DescFinal=Gracias!
+RequiredLevel=18
+RequiredOBJs=1
+RequiredOBJ1=474-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=80000
+RewardEXP=27500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST47]
+Nombre=El libro
+Desc=Sin este mapa,no puedes viajar!
+DescFinal=Gracias!
+RequiredLevel=18
+RequiredOBJs=1
+RequiredOBJ1=41-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=10000
+RewardEXP=27500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST48]
+Nombre=La prueba
+Desc=Demuestrame que eres un hombre del bien,que tienes poder suficiente para mis aventuras,manda al infiernoa los que lo adoran!
+DescFinal=Gracias!
+RequiredLevel=18
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=127-5
+RewardGLD=10000
+RewardEXP=17500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST49]
+Nombre=Una mas
+Desc=Si consiges matar estos pequeños demonios,te dare una llave donde yace el mal verdadero.
+DescFinal=Gracias,hablame para que te explique que hacer con la llave.
+RequiredLevel=18
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=2
+RequiredNPC1=127-5
+RequiredNPC2=105-5
+RewardGLD=10000
+RewardEXP=17500
+RewardOBJs=1
+RewardOBJ1=1112-1
+PosMap=1
+
+[QUEST50]
+Nombre=Demonio
+Desc=En el altillo yace el demonio dentro del cuerpo de la mujer del sacerdote,por amor la tiene encerrada,pero debemos matarla.
+DescFinal=Es triste,pero fue por el bien de todos.
+RequiredLevel=18
+RequiredOBJs=1
+RequiredOBJ1=1112-1
+RequiredNPCs=1
+RequiredNPC1=996-1
+RewardGLD=20000
+RewardEXP=27500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST51]
+Nombre=Arco
+Desc=Soy un Carpintero de la zona,puedo construirte cosas a buen precio.
+DescFinal=Hasta la proxima!
+RequiredLevel=1
+RequiredOBJs=1
+RequiredOBJ1=58-3000
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=0
+RewardEXP=0
+RewardOBJs=1
+RewardOBJ1=479-1
+PosMap=1
+
+[QUEST52]
+Nombre=Flechas
+Desc=Soy un Carpintero de la zona,puedo construirte cosas a buen precio.
+DescFinal=Hasta la proxima!
+RequiredLevel=1
+RequiredOBJs=1
+RequiredOBJ1=58-500
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=0
+RewardEXP=0
+RewardOBJs=1
+RewardOBJ1=551-100
+PosMap=1
+
+
+[QUEST53]
+Nombre=Fragata
+Desc=Soy un Carpintero de la zona,puedo construirte cosas a buen precio.
+DescFinal=Hasta la proxima!
+RequiredLevel=1
+RequiredOBJs=1
+RequiredOBJ1=58-14000
+RequiredNPCs=1
+RequiredNPC1=474-1
+RewardGLD=0
+RewardEXP=0
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST54]
+Nombre=Hacha dos filos
+Desc=la hacha dos dilos es una de las mas poderosas,yo te puedo construir las que necesites.
+DescFinal=Hasta la proxima!
+RequiredLevel=13
+RequiredOBJs=1
+RequiredOBJ1=386-120
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=0
+RewardEXP=0
+RewardOBJs=1
+RewardOBJ1=129-1
+PosMap=1
+
+
+[QUEST55]
+Nombre=Tiburon
+Desc=Un maldito tiburon no me deja avanzar!esta mas adelante! matalo y te compensare!
+DescFinal=Hasta la proxima!
+RequiredLevel=20
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=606-2
+RewardGLD=5000
+RewardEXP=15000
+RewardOBJs=1
+RewardOBJ1=11-1
+PosMap=1
+
+
+[QUEST56]
+Nombre=Red de pesca
+Desc=Estoy anclado y se me ha roto la red de pesca!rapido traeme una red!! a que esperas!!
+DescFinal=vete! toda esta zona es mia,son mis pescados!
+RequiredLevel=15
+RequiredOBJs=1
+RequiredOBJ1=543-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=15000
+RewardEXP=15000
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+
+[QUEST57]
+Nombre=Embarcacion
+Desc=Me an robado mi barca! un ladron me golpeo y me afano todo! ayudame!
+DescFinal=Ahora podre irme de aqui,GRACIAS!
+RequiredLevel=25
+RequiredOBJs=1
+RequiredOBJ1=474-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=150000
+RewardEXP=170000
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST58]
+Nombre=Mapa
+Desc=Tome unas cervezas...me aventure y me perdi...me consiges un mapa?
+DescFinal=Ahora podre irme de aqui,GRACIAS!
+RequiredLevel=10
+RequiredOBJs=1
+RequiredOBJ1=41-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=1500
+RewardEXP=3500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST59]
+Nombre=Un cazador en apuros.
+Desc=Ayudame a controlar las plagas del bosque y te recompenzare!
+DescFinal=Ahora podre irme de aqui,GRACIAS!
+RequiredLevel=15
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=3
+RequiredNPC1=515-3
+RequiredNPC2=510-5
+RequiredNPC3=523-7
+RewardGLD=4500
+RewardEXP=15500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST60]
+Nombre=Peligros del mar abierto.
+Desc=Cientos de navegantes estan siendo atacados por los mas peligrosos monstruos marinos. Sube a tu barca y ayudame con ellos.
+DescFinal=GRACIAS!
+RequiredLevel=25
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=610-1
+RewardGLD=25000
+RewardEXP=25500
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+[QUEST61]
+Nombre=Terrores de otros tiempos.
+Desc=Espiritus de tiempos pasados acechan nuestro presente. Si aceptas esta mision deberas viajar y derrotarlos pero te aseguro que la recompensa valdra la pena.
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredLevel=25
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=558-1
+RewardGLD=100000
+RewardEXP=100000
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST62]
+Nombre=Terrores de otros tiempos.
+Desc=Espiritus de tiempos pasados acechan nuestro presente. Si aceptas esta mision deberas viajar y derrotarlos pero te aseguro que la recompensa valdra la pena.
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredLevel=25
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=559-1
+RewardGLD=100000
+RewardEXP=100000
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST63]
+Nombre=Terrores de otros tiempos.
+Desc=Espiritus de tiempos pasados acechan nuestro presente. Si aceptas esta mision deberas viajar y derrotarlos pero te aseguro que la recompensa valdra la pena.
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredLevel=25
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=560-1
+RewardGLD=100000
+RewardEXP=100000
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST64]
+Nombre=Terrores de otros tiempos.
+Desc=Espiritus de tiempos pasados acechan nuestro presente. Si aceptas esta mision deberas viajar y derrotarlos pero te aseguro que la recompensa valdra la pena.
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredLevel=25
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=561-1
+RewardGLD=100000
+RewardEXP=100000
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST65]
+Nombre=Terrores de otros tiempos.
+Desc=Espiritus de tiempos pasados acechan nuestro presente. Si aceptas esta mision deberas viajar y derrotarlos pero te aseguro que la recompensa valdra la pena.
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredLevel=25
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=562-1
+RewardGLD=100000
+RewardEXP=100000
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST66]
+Nombre=Terrores de otros tiempos.
+Desc=Espiritus de tiempos pasados acechan nuestro presente. Si aceptas esta mision deberas viajar y derrotarlos pero te aseguro que la recompensa valdra la pena.
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredLevel=25
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=563-1
+RewardGLD=100000
+RewardEXP=100000
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+[QUEST67]
+Nombre=Terrores de otros tiempos.
+Desc=Espiritus de tiempos pasados acechan nuestro presente. Si aceptas esta mision deberas viajar y derrotarlos pero te aseguro que la recompensa valdra la pena.
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredLevel=25
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=911-1
+RewardGLD=100000
+RewardEXP=100000
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+[QUEST68]
+Nombre=Huesos
+Desc=Llevo mucho tiempo en el mercado negro de la muerte pero nunca antes me habian hecho un pedido de huesos tan grande. Ayudame a completar mi pedido y te pagare.
+RequiredLevel=13
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredNPCs=3
+RequiredNPC1=596-20
+RequiredNPC2=599-20
+RequiredNPC3=601-20
+RequiredOBJs=0
+RequiredOBJ1=0
+RewardGLD=35000
+RewardEXP=15000
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+[QUEST69]
+Nombre=Pico Roto
+Desc=Tengo el pico cuadrado jaja,me traes otro?te dare unos cuantos minerales si me haces el favor,estoy viejo ya para viajar.
+RequiredLevel=13
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredNPCs=0
+RequiredNPC1=0
+RequiredOBJs=1
+RequiredOBJ1=187-1
+RewardGLD=150
+RewardEXP=3500
+RewardOBJs=1
+RewardOBJ1=192-500
+PosMap=1
+
+
+[QUEST70]
+Nombre=Pieles de lobo
+Desc=Este sastre esta loco,es muy caro! traeme estas pieles y are dos tunicas,una parati y otra parami!
+RequiredLevel=13
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredNPCs=0
+RequiredOBJs=1
+RequiredOBJ1=414-20
+RewardGLD=0
+RewardEXP=3500
+RewardOBJs=1
+RewardOBJ1=670-1
+PosMap=1
+
+[QUEST71]
+Nombre=Cazarecompensas
+Desc=Asique eres un aventurero... en estas zonas se habla mucho sobre un Yeti, hasta ofrecen una recompensa por atraparlo. Tal vez tengas suerte.
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredLevel=25
+RequiredNPCs=1
+RequiredNPC1=0
+RequiredOBJs=1
+RequiredNPC1=632-1
+RewardGLD=0
+RewardEXP=3500
+RewardOBJs=1
+RewardOBJ1=670-1
+PosMap=1
+
+[QUEST72]
+Nombre=Faraon
+Desc=Aventurero, visita la antigua piramide, al norte del desierto y elimina al faraon!
+DescFinal=pense que no regresarias,me toca cumplir mi parte.
+RequiredLevel=25
+RequiredNPCs=0
+RequiredNPC1=0
+RequiredOBJs=0
+RequiredNPC1=0
+RewardGLD=0
+RewardEXP=0
+RewardOBJs=0
+RewardOBJ1=0
+PosMap=1
+
+
+[QUEST73]
+Nombre=Congelar
+Desc=la magia blanca,magia pura,es lo que te puedo entregar si me ayudas,necesito un galeon de guerra.
+DescFinal=Hasta la proxima!
+RequiredLevel=13
+RequiredOBJs=1
+RequiredOBJ1=476-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=0
+RewardEXP=0
+RewardOBJs=1
+RewardOBJ1=1071-1
+PosMap=1
+
+
+[QUEST74]
+Nombre=Pocion rara
+Desc=Si me traes un arma buena te dare una pocion misteriosa que me drope un Boss!
+Desc=Si me traes un arma buena te dare una pocion misteriosa que me drope un Boss!
+RequiredLevel=25
+RequiredOBJs=1
+RequiredOBJ1=403-1
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=0
+RewardEXP=0
+RewardOBJs=1
+RewardOBJ1=1072-1
+PosMap=1
+
+
+[QUEST75]
+Nombre=Cañones
+Desc=Soy un triste pirata con pata de palo,pero aun conservo la municion de mis cañones en el sotano!
+Desc=Soy un triste pirata con pata de palo,pero aun conservo la municion de mis cañones en el sotano!
+RequiredLevel=20
+RequiredOBJs=4
+RequiredOBJ1=710-1
+RequiredOBJ2=388-10
+RequiredOBJ3=157-1
+RequiredOBJ4=387-10
+RequiredNPCs=0
+RequiredNPC1=0
+RewardGLD=0
+RewardEXP=0
+RewardOBJs=1
+RewardOBJ1=1073-1000
+PosMap=1
+
+
+[QUEST76]
+Nombre=Hombre de barro
+Desc=La bruja del pantano aveces invoca un hombre de barro malefico!matalo!!!
+Desc=La bruja del pantano aveces invoca un hombre de barro malefico!matalo!!!
+RequiredLevel=20
+RequiredOBJs=0
+RequiredOBJ1=0
+RequiredNPCs=1
+RequiredNPC1=645-1
+RewardGLD=25000
+RewardEXP=25000
+RewardOBJs=1
+RewardOBJ1=0
+PosMap=1

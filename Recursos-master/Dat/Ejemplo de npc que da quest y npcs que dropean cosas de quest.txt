@@ -1,0 +1,56 @@
+
+[NPC930]
+Name=Margareth <Quest de Ullathorpe> ' EJEMPLO DE NPC QUEST DEL NUEVO SISTEMA SACADO DE AO20
+NpcType=17
+Desc=Bienvenido a Ullathorpe! es una ciudad muy peligrosa,asi que andate con cuidado!quizas puedas hacerme unos favores que te recompensare gratamente.
+Head=707
+Showname=1
+Heading=3
+Body=537
+Movement=1
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+BackUp=0
+NumQuest=5
+QuestNumber1=1
+QuestNumber2=14
+QuestNumber3=15
+QuestNumber4=16
+QuestNumber5=17
+'QuestNumber= ESTA OPCION SOLO SI SOLO TIENE UNA QUEST PONERLO SIN NUMERO EL QUESTNUMBER
+
+[NPC502]
+Name=Serpiente
+Head=0
+Body=846
+Heading=3
+Movement=3
+Alineacion=2
+Veneno=1
+Attackable=1
+Comercia=0
+Hostile=1
+GiveEXP=15
+GiveGLD=0
+MinHP=22
+MaxHP=22
+MaxHIT=2
+MinHIT=1
+SND1=127
+SND2=128
+SND3=103
+DEF=0
+NROITEMS=0
+AguaValida=0
+PoderAtaque=30
+PoderEvasion=10
+NumDropQuest=5
+DropQuest1=4-2492-1-1 primero numero es a la quest que pertenece ese objeto o quest que lo pide luego item y luego cantidad , el otor uno no se pa que
+DropQuest2=8-2479-1-1
+DropQuest3=8-2478-1-1
+DropQuest4=6-2496-1-1
+DropQuest5=9-2492-1-1

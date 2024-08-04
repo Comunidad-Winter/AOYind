@@ -1,0 +1,70 @@
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'JOTA: Ruta para los npcs taladores
+'El fin de la ruta tiene que ser en un lugar donde el bot tenga un arbol al lado.
+'Importante, asegurarse que en el final, el bot tenga un arbol al lado o cerca
+'Si el final esta ocupado por otro npc o personaje, el bot se pone al lado
+'En el campo direccion inicio y fin, poner para que lado esta el arbol o el npc, es para que el bot GIRE SU CUERPO y la cabeza apunte al arbol o npc/casa
+'Valores para direccion inicio y fin: NORTE, SUR, ESTE, OESTE
+'Cuando el bot llegue al inicio de su ruta, su cuerpo se va a girar en base a direccion inicio, para que la cabeza quede mirando al npc o casa de venta
+'Cuando el bot llegue al final de su ruta, su cuerpo se va a girar en base a direccion fin, para que la cabeza quede mirando el arbol
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[INIT]
+NumeroRutaTalador=9
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTATALADOR1]'Lindos
+Ruta=940,980;940,972;978,972;978,983;981,983
+DireccionInicio=OESTE
+DireccionFin=ESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTATALADOR2]'Esperanza
+Ruta=795,1375;808,1375;808,1378;835,1378;835,1371;857,1371;857,1379;884,1379;884,1373
+DireccionInicio=OESTE
+DireccionFin=NORTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTATALADOR3]'Arkhein
+Ruta=485,1430;485,1432;536,1432;536,1423;562,1423;562,1397;548,1397;548,1388
+DireccionInicio=NORTE
+DireccionFin=NORTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTATALADOR4]'Nix 1
+Ruta=150,1225;158,1225;158,1236;185,1236;185,1233
+DireccionInicio=NORTE
+DireccionFin=NORTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTATALADOR5]'Nix 2
+Ruta=186,1249;186,1248;201,1248;201,1217;188,1217;188,1229;196,1229;196,1226
+DireccionInicio=ESTE
+DireccionFin=NORTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTATALADOR6]'Ulla
+Ruta=319,837;310,837;310,844;313,844;313,859;309.859;309,864;300,864;300,892;298,892
+DireccionInicio=ESTE
+DireccionFin=OESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTATALADOR7]'Ulla 2
+Ruta=272,836;277,836;277,840;304,840;304,856;299,856
+DireccionInicio=OESTE
+DireccionFin=OESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTATALADOR8]'Bander
+Ruta=297,85;302,85;303,226;292,226;292,292;271,292;271,291
+DireccionInicio=OESTE
+DireccionFin=NORTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTATALADOR9]'Arghal
+Ruta=596,385;596,341;620,341;620,328;624,328;624,322;654,322;654,329;683,329;683,334;685,334
+DireccionInicio=ESTE
+DireccionFin=ESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&

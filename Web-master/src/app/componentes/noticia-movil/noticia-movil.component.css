@@ -1,0 +1,19 @@
+.cuadro{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 10px 1fr;
+}
+
+.nombre{
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120px 40px;
+    background-image: url("/assets/img/equipo/noticias.png");
+    background-color: #1B1515;
+}
+
+.muro-facebook{
+    display: grid;
+    grid-template-columns: 1fr;
+}

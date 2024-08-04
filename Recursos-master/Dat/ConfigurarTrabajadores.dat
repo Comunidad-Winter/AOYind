@@ -1,0 +1,61 @@
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'JOTA - Juan Pablo Pereyra: Configurar bots
+'Las variables de MINUTOS, solo hay que poner valores ENTEROS que representan minutos, minimo 1
+'Las variables de SEGUNDOS, solo hay que poner valores ENTEROS que representan SEGUNDOS, minimo 1
+'En turnos, poner cantidad minima y maxima de bots por turno, poner numero entero. El servidor toma un valor random minimo y random maximo por turno.
+'Pasado ese turno, vuelve a tomar valores random.
+'Explicacion de cada variable:
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'Tiempo minimo y maximo de trabajo: Se expresan en minutos, valor minimo 1
+'El servidor otorga un valor RANDOM entre minimo y maximo por cada BOT al momento de crearlo. Ese es el tiempo que va a trabajar
+'cuando llegue al final de su ruta. Pasado ese tiempo, vuelve al inicio de su ruta, en caso de que tenga que seguir vivo. Y el ciclo vuelve a empezar
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'Tiempo para hablar minimo y maximo: Se expresa en minutos, valor minimo 1
+'El servidor otorga un valor randmon entre minimo y maximo para que un npc hable. Luego de hablar, vuelve a asignar un valor random a ese npc
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'Tiempo de login minimo y maximo: Se expresa en minutos, el servidor al crear un bot, le asigna un tiempo de vida RANDOM.
+'Pasado ese tiempo de vida, el bot se desconecta y vuelve a revivir segun valor random de tiempo minimo y maximo de resucitar
+'El servidor otorga un valor randmon entre minimo y maximo para que un npc hable. Luego de hablar, vuelve a asignar un valor random a ese npc
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'Tiempo resucitar minimo y maximo: Se expresa en minutos, a cada bot, se asigna un tiempo random que debe esperar para resucitar y volver
+'a loguearse. Una vez que vuelve a loguearse, se vuelve a asignar un valor random de resucitar
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'SEGUNDOS: Intervalo de trabajo minimo y maximo: Se epresa en SEGUNDOS, a cada bot se le asigna un tiempo random de trabajo para generar el ruido
+'de talar, pescar, etc. Luego se le vuelve  a asignar un tiempo random, simulando que es un humano
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'Tiempo comer minino y maximo: Cada un tiempo random, que toma de los minimo y maximo, cada bot va a simular que toma agua y come, ejecuta dichos ruidos
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'TURNOS: Cada vez que empiece un nuevo turno, el servidor selecciona un valor minimo RANDOM y maximo RANDOM de cantidad de bots conectados al mismo tiempo
+'Esto es imoprtante, al momento de crear bots, para no pasarse de esos limites.
+'Turno maniana: 7 AM a 13 PM
+'Turno tarde: 13.01 PM a 19 PM
+'Turno noche: 19.01 PM a 24 PM
+'Turno madrugada: 24.01 PM a 6.59AM
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+[TIEMPO_ESPERA]
+TiempoMinimoTrabajo=1
+TiempoMaximoTrabajo=3
+TiempoMinimoHablar=1
+TiempoMaximoHablar=3
+TiempoMinimoLogin=1
+TiempoMaximoLogin=5
+TiempoMinimoResucitar=2
+TiempoMaximoResucitar=3
+TiempoMinimoComerBeber=1
+TiempoMaximoComerBeber=3
+
+[INTERVALO]
+IntervaloMinimoTrabajo=4
+IntervaloMaximoTrabajo=10
+
+[TURNOS]
+CantidadMinimaBotManiana=9
+CantidadMaximaBotManiana=9
+CantidadMinimaBotTarde=9
+CantidadMaximaBotTarde=9
+CantidadMinimaBotNoche=9
+CantidadMaximaBotNoche=9
+CantidadMinimaBotMadrugada=9
+CantidadMaximaBotMadrugada=9

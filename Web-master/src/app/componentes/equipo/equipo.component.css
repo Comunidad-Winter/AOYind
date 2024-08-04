@@ -1,0 +1,68 @@
+* {
+    font-family: 'robotoRegular';
+    font-size: 16px;
+}
+
+.cuerpo-equipo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 20px 1fr;
+}
+
+.linea {
+    height: 13.125rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1B1515;
+}
+
+.nombre {
+    height: 3.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 160px 60px;
+    background-image: url("/assets/img/equipo/equipo.png");
+    background-color: #1B1515;
+}
+
+.img-fondo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25rem 12.5rem;
+}
+
+.neo {
+    background-image: url("/assets/img/equipo/neo.png");
+}
+
+.xavi {
+    background-image: url("/assets/img/equipo/sensul.png");
+}
+
+.yind {
+    background-image: url("/assets/img/equipo/yind.png");
+}
+
+.jota {
+    background-image: url("/assets/img/equipo/jota.png");
+}
+
+.tutte {
+    background-image: url("/assets/img/equipo/tutte.png");
+}
+
+.matias {
+    background-image: url("/assets/img/equipo/rothson.png");
+}
+
+.walter {
+    background-image: url("/assets/img/equipo/walter.png");
+}
+
+.rama {
+    background-image: url("/assets/img/equipo/rama.png");
+}
+
+.hit {
+    background-image: url("/assets/img/equipo/hit.png");
+}

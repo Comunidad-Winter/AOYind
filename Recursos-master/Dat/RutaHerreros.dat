@@ -1,0 +1,56 @@
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'JOTA: Ruta para los npcs herreros
+'Si el final esta ocupado por otro npc o personaje, el bot se pone al lado
+'En el campo direccion inicio y fin, poner para que lado esta el arbol o el npc, es para que el bot GIRE SU CUERPO y la cabeza apunte al yunke, npc/casa
+'Valores para direccion inicio y fin: NORTE, SUR, ESTE, OESTE
+'Cuando el bot llegue al inicio de su ruta, su cuerpo se va a girar en base a direccion inicio, para que la cabeza quede mirando al npc o casa de venta
+'Cuando el bot llegue al final de su ruta, su cuerpo se va a girar en base a direccion fin, para que la cabeza quede mirando el arbol o lo que sea
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[INIT]
+NumeroRutaHerrero=7
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAHERRERO1]'Nix
+Ruta=188,1172;188,1203;198,1203;198,1201
+DireccionInicio=SUR
+DireccionFin=OESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAHERRERO2]'Arkhein
+Ruta=480,1431;536,1431;536,1423;563,1423;563,1382;557,1382;557,1374;555,1374
+DireccionInicio=ESTE
+DireccionFin=NORTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAHERRERO3]'Ulla
+Ruta=300,896;300,863;310,863;310,858;314,858;314,843;309,843;309,839;280,839;280,844;285,844;285,868;273,868;273,879;282,879;282,872
+DireccionInicio=NORTE
+DireccionFin=NORTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAHERRERO4]'Bander
+Ruta=301,93;301,214;285,214;285,226;294,226;294,268;321,268;321,248;320,248
+DireccionInicio=SUR
+DireccionFin=OESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAHERRERO5]'Arghal
+Ruta=544,340;620,340;620,329;624,329;624,323;654,323;654,329;683,329;683,300;671,300;671,286;673,286;673,283;672,283
+DireccionInicio=NORTE
+DireccionFin=OESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAHERRERO6]'Lindos
+Ruta=930,1095;930,1074;920,1074;920,1026;932,1026;932,990;922,990;922,984;918,984;918,983
+DireccionInicio=SUR
+DireccionFin=NORTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAHERRERO7]'Esperanza
+Ruta=875,1361;875,1379;851,1379;851,1370;834,1370;834,1378;814,1378;814,1358;838,1358;838,1340
+DireccionInicio=NORTE
+DireccionFin=SUR
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&

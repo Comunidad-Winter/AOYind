@@ -1,0 +1,248 @@
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'CADA VEZ QUE SE AGREGA UN NUEVO NPC EN ESTE DOCUMENTO, AUMENTAR EL CONTADOR NumeroNpcInteligentes
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[INIT]
+NumeroNpcInteligentes=7
+
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[NPCINTELIGENTE1]
+NumeroNPC=617
+Clan=<ARMADA REAL>
+Criatura=0
+Fijo=1
+TiempoEsperaMinuto=1
+CrearInicioServer=1
+TiempoRenacer=120
+Mana=2000
+PocionesRojas=800
+PocionesAzules=900
+OroInicial=1
+IncrementoOro=1
+OroMaximo=100
+TiraRemo=1
+TiraInmo=1
+TiraApoca=1
+TiraDescarga=1
+TiraTormentaFuego=1
+TiraVerInvi=1
+NroHechizoInvocacion=0
+MsjAgresorInvi=Dale, mostrate pa!
+MsjNuevoAgresor=Veni, pelea!
+MsjAgresorRandom1=Te voy a matar!
+MsjAgresorRandom2=No podes contra mi
+MsjAgresorRandom3=Ya perdiste noob
+MsjAvisoPosibleAgresor=Deja de molestar!
+MsjNoMolestes=Segui tu camino
+MsjAlHacerClick=
+NroRutas=1
+Ruta1=297,859;285,863;285,845;277,838;277,802;285,794;293,793;292,687;296,683;296,617;300,615;301,557;305,556;305,520;317,519;315,492;305,491;305,346;296,344;296,282;292,277;292,222
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[NPCINTELIGENTE2]
+NumeroNPC=618
+Clan=<ORDEN DEL CAOS>
+Fijo=1
+TiempoEsperaMinuto=1
+CrearInicioServer=1
+TiempoRenacer=120
+Mana=2000
+PocionesRojas=800
+PocionesAzules=900
+OroInicial=1
+IncrementoOro=1
+OroMaximo=100
+TiraRemo=1
+TiraInmo=1
+TiraApoca=1
+TiraDescarga=1
+TiraTormentaFuego=0
+TiraVerInvi=1
+NroHechizoInvocacion=0
+MsjAgresorInvi=Dale, mostrate pa!
+MsjNuevoAgresor=Veni, pelea!
+MsjAgresorRandom1=Te voy a matar!
+MsjAgresorRandom2=No podes contra mi
+MsjAgresorRandom3=Ya perdiste noob
+MsjAvisoPosibleAgresor=Deja de molestar!
+MsjNoMolestes=Segui tu camino
+MsjAlHacerClick=
+NroRutas=1
+Ruta1=195,1225;195,1235;201,1235;201,1251;217,1252;220,1261;272,1261;272,1268;304,1269;305,1296;332,1297;333,1308;424,1309;425,1332;450,1343;456,1343;456,1396;459,1404;459,1430;536,1431;536,1423;540,1420;540,1403;550,1397;552,1392
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[NPCINTELIGENTE3]' NeoSefirot
+NumeroNPC=970
+Clan=<AoYind>
+Fijo=0
+TiempoEsperaMinuto=3
+CrearInicioServer=1
+TiempoRenacer=60
+Mana=2000
+PocionesRojas=200
+PocionesAzules=200
+OroInicial=1
+IncrementoOro=1
+OroMaximo=100
+TiraRemo=1
+TiraInmo=1
+TiraApoca=1
+TiraDescarga=1
+TiraTormentaFuego=1
+TiraVerInvi=1
+NroHechizoInvocacion=0
+MsjAgresorInvi=Uhhhh!!!!! Nn Fantasma te ve en las Sombras.
+MsjNuevoAgresor=uhhhhhhhhh!!! Moriras.
+MsjAgresorRandom1=uhhhhhhhhh!!! No merece la pena seguir.
+MsjAgresorRandom2=uhhhhhhhhh!!! Mankieeee.
+MsjAgresorRandom3=uhhhhhhhhh!!! Era un noble Paladin...
+MsjAvisoPosibleAgresor=¡¡¡uhhhhhhhhh!!! Alejate por favor.
+MsjNoMolestes=uhhhhhhhhh!!! Dejame vagar libremente.
+MsjAlHacerClick=uhhhhhhhhh!!! Hola, yo no recuerdo que hago por aqui.
+NroRutas=1
+Ruta1=156,1234;156,1236;188,1236;189,1236;189,1148;217,1147;217,1144;237,1144;237,1140;298,1140;298,1137;305,1137;305,1128;312,1128;312,1124;308,1124;308,1120;304,1120;304,1108;292,1108;292,1104;288,1104;288,1092;285,1092;285,1004;289,1004;289,958;284,958;284,925;289,925;289,920;293,920;293,910;297,910;297,906;301,906;301,853
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[NPCINTELIGENTE4]
+NumeroNPC=971
+Clan=<AoYind>
+Fijo=0
+TiempoEsperaMinuto=1
+CrearInicioServer=1
+TiempoRenacer=0
+Mana=2000
+PocionesRojas=800
+PocionesAzules=900
+OroInicial=1
+IncrementoOro=1
+OroMaximo=100
+TiraRemo=1
+TiraInmo=1
+TiraApoca=1
+TiraDescarga=1
+TiraTormentaFuego=0
+TiraVerInvi=1
+NroHechizoInvocacion=0
+MsjAgresorInvi=¡Yusuke manda!
+MsjNuevoAgresor=¡Yusuke manda!
+MsjAgresorRandom1=¡Yusuke manda!
+MsjAgresorRandom2=¡Yusuke manda!
+MsjAgresorRandom3=¡Yusuke manda!
+MsjAvisoPosibleAgresor=¡Yusuke manda!
+MsjNoMolestes=¡Yusuke manda!
+MsjAlHacerClick=¡Yusuke manda!
+NroRutas=1
+Ruta1=176,1243;188,1243;188,1170;176,1170
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[NPCINTELIGENTE5]
+NumeroNPC=972
+Clan=<AoYind>
+Fijo=0
+TiempoEsperaMinuto=1
+CrearInicioServer=1
+TiempoRenacer=0
+Mana=2000
+PocionesRojas=800
+PocionesAzules=900
+OroInicial=1
+IncrementoOro=1
+OroMaximo=100
+TiraRemo=1
+TiraInmo=1
+TiraApoca=1
+TiraDescarga=1
+TiraTormentaFuego=0
+TiraVerInvi=1
+NroHechizoInvocacion=0
+MsjAgresorInvi=Por lo menos no libero codigos ajenos como el n00b
+MsjNuevoAgresor=Por lo menos no libero codigos ajenos como el n00b
+MsjAgresorRandom1=Por lo menos no libero codigos ajenos como el n00b
+MsjAgresorRandom2=Por lo menos no libero codigos ajenos como el n00b
+MsjAgresorRandom3=Por lo menos no libero codigos ajenos como el n00b
+MsjAvisoPosibleAgresor=Por lo menos no libero codigos ajenos como el n00b
+MsjNoMolestes=Por lo menos no libero codigos ajenos como el n00b
+MsjAlHacerClick=Por lo menos no soy un tóxico y que libera códigos ajenos...
+NroRutas=1
+Ruta1=166,1179;188,1179;188,1236;201,1236;201,1231;239,1231
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[NPCINTELIGENTE6]
+NumeroNPC=973
+Clan=<AoYind>
+Fijo=0
+TiempoEsperaMinuto=1
+CrearInicioServer=1
+TiempoRenacer=0
+Mana=2000
+PocionesRojas=800
+PocionesAzules=900
+OroInicial=1
+IncrementoOro=1
+OroMaximo=100
+TiraRemo=1
+TiraInmo=1
+TiraApoca=1
+TiraDescarga=1
+TiraTormentaFuego=0
+TiraVerInvi=1
+NroHechizoInvocacion=0
+MsjAgresorInvi=Quiero un gm con poderes!!!
+MsjNuevoAgresor=Quiero un gm con poderes!!!
+MsjAgresorRandom1=Quiero un gm con poderes!!!
+MsjAgresorRandom2=Quiero un gm con poderes!!!
+MsjAgresorRandom3=Quiero un gm con poderes!!!
+MsjAvisoPosibleAgresor=Quiero un gm con poderes!!!
+MsjNoMolestes=Quiero un gm con poderes!!!
+MsjAlHacerClick=Comportate por Discord o te aplicare una sanción
+NroRutas=1
+Ruta1=217,1261;217,1251;189,1251;189,1203;239,1203;239,1191;164,1191;164,1179;239,1179
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[NPCINTELIGENTE7]
+NumeroNPC=974
+Clan=<AoYind>
+Fijo=0
+TiempoEsperaMinuto=1
+CrearInicioServer=1
+TiempoRenacer=0
+Mana=2000
+PocionesRojas=800
+PocionesAzules=900
+OroInicial=1
+IncrementoOro=1
+OroMaximo=100
+TiraRemo=1
+TiraInmo=1
+TiraApoca=1
+TiraDescarga=1
+TiraTormentaFuego=0
+TiraVerInvi=1
+NroHechizoInvocacion=0
+MsjAgresorInvi=No hice nada y soy del staff :D
+MsjNuevoAgresor=No hice nada y soy del staff :D
+MsjAgresorRandom1=No hice nada y soy del staff :D
+MsjAgresorRandom2=No hice nada y soy del staff :D
+MsjAgresorRandom3=No hice nada y soy del staff :D
+MsjAvisoPosibleAgresor=No hice nada y soy del staff :D
+MsjNoMolestes=No hice nada y soy del staff :D
+MsjAlHacerClick=Hola bienvenid@ al server, espero que le agrade he trabajado duro en el.
+NroRutas=1
+Ruta1=173,1225;173,1236;189,1236;189,1204;239,1204;239,1252;200,1252;200,1247;188,1247;188,1243;176,1243
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&

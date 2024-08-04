@@ -1,0 +1,12 @@
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\bin\Debug\AoYind3Dats.exe.config
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\bin\Debug\AoYind3Dats.exe
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\bin\Debug\AoYind3Dats.pdb
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\bin\Debug\AoYind3Dats.xml
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\obj\Debug\AoYind3Dats.vbprojAssemblyReference.cache
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\obj\Debug\AoYind3Dats.frmMain.resources
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\obj\Debug\AoYind3Dats.Resources.resources
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\obj\Debug\AoYind3Dats.vbproj.GenerateResource.cache
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\obj\Debug\AoYind3Dats.vbproj.CoreCompileInputs.cache
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\obj\Debug\AoYind3Dats.exe
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\obj\Debug\AoYind3Dats.xml
+C:\AoYind3\Tools\AoYind3Dats\AoYind3Dats\obj\Debug\AoYind3Dats.pdb

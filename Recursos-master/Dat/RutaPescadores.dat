@@ -1,0 +1,57 @@
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'JOTA: Ruta para los npcs pescadores
+'El fin de la ruta tiene que ser en un lugar donde el bot tenga agua al lado, en la orilla de una costa, en un muelle, etc.
+'Importante, asegurarse que en el final, el bot tenga agua al lado
+'En direccion inicio y fin, poner para que lado esta el agua o npc/casa de venta, es para que el bot GIRE SU CUERPO y la cabeza apunte correctamente
+'Valores para direccion inicio y fin: NORTE, SUR, ESTE, OESTE
+'Cuando el bot llegue al inicio de su ruta, su cuerpo se va a girar en base a direccion inicio, para que la cabeza quede mirando al npc o casa de venta
+'Cuando el bot llegue al final de su ruta, su cuerpo se va a girar en base a direccion, para que la cabeza quede mirando el agua
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[INIT]
+NumeroRutaPescador=7
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAPESCADOR1]'Bander
+Ruta=267,191;267,206;285,206;285,210;305,210;305,155;303,155;303,122;342,122;342,178;303,178;303,213;316,213;316,210;333,210;333,243;315,243;315,267;291,267;291,296;254,296
+DireccionInicio=NORTE
+DireccionFin=OESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAPESCADOR2]'Arghal
+Ruta=799,310;799,327;824,327;824,352;771,352;771,340;760,340;760,336;765,336;765,332;760,332;760,328;714,328;714,324;705,324;705,300;682,300;682,338;691,338
+DireccionInicio=NORTE
+DireccionFin=ESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAPESCADOR3]'Ulla
+Ruta=188,883;188,899;261,899;261,903;281,903;281,907;301,907;301,863;312,863;312,861
+DireccionInicio=NORTE
+DireccionFin=ESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAPESCADOR4]'Nix
+Ruta=226,1285;212,1285;212,1269;202,1269;217,1269;217,1251;239,1251;239,1231;200,1231;200,1247;188,1247;188,1236;182,1236;182,1240
+DireccionInicio=NORTE
+DireccionFin=SUR
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAPESCADOR5]'Arkhein
+Ruta=641,1374;585,1374;585,1379;571,1379;571,1382;543,1382;543,1404;539,1404;539,1424;563,1424;563,1393;579,1393
+DireccionInicio=ESTE
+DireccionFin=NORTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAPESCADOR6]'Esperanza
+Ruta=801,1359;815,1359;815,1377;815,1377;835,1377;835,1358;838,1358;838,1341;837,1341
+DireccionInicio=OESTE
+DireccionFin=OESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTAPESCADOR7]'Lindos
+Ruta=894,988;916,988;916,1013;933,1013;933,971;949,971
+DireccionInicio=OESTE
+DireccionFin=SUR
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&

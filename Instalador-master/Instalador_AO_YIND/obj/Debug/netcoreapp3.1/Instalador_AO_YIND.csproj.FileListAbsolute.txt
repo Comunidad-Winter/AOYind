@@ -1,0 +1,15 @@
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\bin\Debug\netcoreapp3.1\Instalador_AO_YIND.exe
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\bin\Debug\netcoreapp3.1\Instalador_AO_YIND.deps.json
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\bin\Debug\netcoreapp3.1\Instalador_AO_YIND.runtimeconfig.json
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\bin\Debug\netcoreapp3.1\Instalador_AO_YIND.runtimeconfig.dev.json
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\bin\Debug\netcoreapp3.1\Instalador_AO_YIND.dll
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\bin\Debug\netcoreapp3.1\Instalador_AO_YIND.pdb
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\obj\Debug\netcoreapp3.1\Instalador_AO_YIND.csprojAssemblyReference.cache
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\obj\Debug\netcoreapp3.1\Instalador_AO_YIND.Form1.resources
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\obj\Debug\netcoreapp3.1\Instalador_AO_YIND.csproj.GenerateResource.cache
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\obj\Debug\netcoreapp3.1\Instalador_AO_YIND.AssemblyInfoInputs.cache
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\obj\Debug\netcoreapp3.1\Instalador_AO_YIND.AssemblyInfo.cs
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\obj\Debug\netcoreapp3.1\Instalador_AO_YIND.csproj.CoreCompileInputs.cache
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\obj\Debug\netcoreapp3.1\Instalador_AO_YIND.dll
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\obj\Debug\netcoreapp3.1\Instalador_AO_YIND.pdb
+C:\Users\JPP\source\repos\Instalador_AO_YIND\Instalador_AO_YIND\obj\Debug\netcoreapp3.1\Instalador_AO_YIND.genruntimeconfig.cache

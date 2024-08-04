@@ -1,0 +1,56 @@
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'JOTA: Ruta para los npcs carpinteros
+'Si el final esta ocupado por otro npc o personaje, el bot se pone al lado
+'En el campo direccion inicio y fin, poner para que lado esta el arbol o el npc, es para que el bot GIRE SU CUERPO y la cabeza apunte al arbol o npc/casa
+'Valores para direccion inicio y fin: NORTE, SUR, ESTE, OESTE
+'Cuando el bot llegue al inicio de su ruta, su cuerpo se va a girar en base a direccion inicio, para que la cabeza quede mirando al npc o casa de venta
+'Cuando el bot llegue al final de su ruta, su cuerpo se va a girar en base a direccion fin, para que la cabeza quede mirando el arbol o lo que sea
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+[INIT]
+NumeroRutaCarpintero=7
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTACARPINTERO1] 'Bander
+Ruta=307,256;307,267;292,267;292,225;285,225;285,218
+DireccionInicio=NORTE
+DireccionFin=SUR
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTACARPINTERO2]'Arghal
+Ruta=608,280;608,281;610,281;610,289;602,289;602,299;616,299;616,318;624,318;624,323;654,323;655,329;683,329;683,344;695,344;695,337
+DireccionInicio=NORTE
+DireccionFin=SUR
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTACARPINTERO3]'Ulla
+Ruta=304,879;300,879;300,863;305,863;305,856
+DireccionInicio=NORTE
+DireccionFin=ESTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTACARPINTERO4]'Nix
+Ruta=180,1207;180,1216;189,1216;189,1232;193,1232
+DireccionInicio=OESTE
+DireccionFin=SUR
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTACARPINTERO5]'Arkhein
+Ruta=551,1393;551,1397;563,1397;563,1394;588,1394;588,1387;587,1387
+DireccionInicio=SUR
+DireccionFin=NORTE
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTACARPINTERO6]'Esperanza
+Ruta=557,1349;857,1359;814,1359;814,1348
+DireccionInicio=ESTE
+DireccionFin=SUR
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+[RUTACARPINTERO7]'Lindos
+Ruta=914,1015;929,1015;929,1011;932,1011;932,970;948,970;948,964
+DireccionInicio=OESTE
+DireccionFin=SUR
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
